@@ -37,10 +37,9 @@
     flex-direction: column;
     position: relative;
     justify-content: center;
-    align-items: center;
-    
+    align-items: flex-end;
+    gap: 10px;
 }
-
 .abc {
     width: 100px;
     height: 100px;
@@ -65,7 +64,17 @@
 .e {
     background-color: rgb(58, 224, 7);
     transform: rotate(45deg);
+    animation: rotation 10s infinite linear;
 }
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
 
 .f {
     background-color: rgb(238, 156, 4);
@@ -74,13 +83,16 @@
 .g {
     border: 2px solid black;
     box-shadow: 5px 10px;
+    margin-right: 10px;
 }
 
 .h {
     border: 2px solid black;
+    margin-right: 10px;
 }
 
 .i {
     border: 2px solid black;
     box-shadow: 5px 10px;
+    margin-right: 10px;
 }
