@@ -15,6 +15,31 @@
     height: 500px;
     border: 2px solid black;
 }
+.container-one {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+.container-two {
+    background-image: linear-gradient(to right top, navy, indigo, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+}
+.container-three {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .abc {
     width: 100px;
@@ -39,6 +64,7 @@
 
 .e {
     background-color: rgb(58, 224, 7);
+    transform: rotate(45deg);
 }
 
 .f {
@@ -47,6 +73,7 @@
 
 .g {
     border: 2px solid black;
+    box-shadow: 5px 10px;
 }
 
 .h {
@@ -55,4 +82,5 @@
 
 .i {
     border: 2px solid black;
+    box-shadow: 5px 10px;
 }
